@@ -21,7 +21,7 @@ def hello_world():
     speech_text = 'Hi hows going on ..?'
     return statement(speech_text).simple_card('Homepage ', speech_text)
 
-@ask.intent('locationIntent')
+@ask.intent('LocationIntent')
 def location():
     speech_text = 'I think you are in this place'
     return statement(speech_text).simple_card('your location is.. ', speech_text)
